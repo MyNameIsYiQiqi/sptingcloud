@@ -1,0 +1,8 @@
+# application.yml 是用户级的资源配置项；bootstrap.yml 是系统级的，优先级更高
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:5555  # 服务启动后，去找5555服务
+      name: cloud-config  # 从github上读取的资源名称，不要加 .yml后缀
+      label: master # master分支
+      profile: dev  # dev配置

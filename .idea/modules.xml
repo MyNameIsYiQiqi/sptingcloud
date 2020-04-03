@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud/cloud.iml" filepath="$PROJECT_DIR$/cloud/cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-common/cloud-common.iml" filepath="$PROJECT_DIR$/cloud-common/cloud-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config/cloud-config.iml" filepath="$PROJECT_DIR$/cloud-config/cloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-client/cloud-config-client.iml" filepath="$PROJECT_DIR$/cloud-config-client/cloud-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka01/cloud-eureka01.iml" filepath="$PROJECT_DIR$/cloud-eureka01/cloud-eureka01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka02/cloud-eureka02.iml" filepath="$PROJECT_DIR$/cloud-eureka02/cloud-eureka02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka03/cloud-eureka03.iml" filepath="$PROJECT_DIR$/cloud-eureka03/cloud-eureka03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-mybatis/cloud-mybatis.iml" filepath="$PROJECT_DIR$/cloud-mybatis/cloud-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-order-consumer/cloud-order-consumer.iml" filepath="$PROJECT_DIR$/cloud-order-consumer/cloud-order-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-order-consumer-feign/cloud-order-consumer-feign.iml" filepath="$PROJECT_DIR$/cloud-order-consumer-feign/cloud-order-consumer-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-order-consumer-hystrix-dashboard/cloud-order-consumer-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/cloud-order-consumer-hystrix-dashboard/cloud-order-consumer-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-order-provider01/cloud-order-provider01.iml" filepath="$PROJECT_DIR$/cloud-order-provider01/cloud-order-provider01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-order-provider01-hystrix/cloud-order-provider01-hystrix.iml" filepath="$PROJECT_DIR$/cloud-order-provider01-hystrix/cloud-order-provider01-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-order-provider02/cloud-order-provider02.iml" filepath="$PROJECT_DIR$/cloud-order-provider02/cloud-order-provider02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-order-provider03/cloud-order-provider03.iml" filepath="$PROJECT_DIR$/cloud-order-provider03/cloud-order-provider03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-redis01/cloud-redis01.iml" filepath="$PROJECT_DIR$/cloud-redis01/cloud-redis01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-seata-account-server/cloud-seata-account-server.iml" filepath="$PROJECT_DIR$/cloud-seata-account-server/cloud-seata-account-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-seata-order-server/cloud-seata-order-server.iml" filepath="$PROJECT_DIR$/cloud-seata-order-server/cloud-seata-order-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-seata-storage-server/cloud-seata-storage-server.iml" filepath="$PROJECT_DIR$/cloud-seata-storage-server/cloud-seata-storage-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-zuul-gateway/cloud-zuul-gateway.iml" filepath="$PROJECT_DIR$/cloud-zuul-gateway/cloud-zuul-gateway.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,37 @@
+server:
+  port: 8180
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka01:7001/eureka/,http://eureka02:7002/eureka/,http://eureka03:7003/eureka/
+    healthcheck:
+      enabled: true
+  instance:
+    instance-id: order-8180  # 人性化显示出服务的信息
+    prefer-ip-address: true    # 访问路径可显示ip地址
+    lease-renewal-interval-in-seconds: 2
+    lease-expiration-duration-in-seconds: 5
+
+logging:
+  level:
+    io:
+      seata: info
+    com:
+      example:
+        springcloud: DEBUG
+  mapperLocations: classpath*:mysql/**/*.xml
+  typeAliasesPackage: com.example.springcloud.entity
+
+spring:
+  application:
+    name: order-server
+  cloud:
+    alibaba:
+      seata:
+        tx-service-group: fsp_tx_group
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: 123456
+    url: jdbc:mysql://localhost:3306/cloud
+    username: root
