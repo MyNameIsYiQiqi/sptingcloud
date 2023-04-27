@@ -31,4 +31,8 @@ public class Order {
         this.price = price;
         this.dbSource = dbSource;
     }
+
+    public void test01(){
+
+    }
 }
